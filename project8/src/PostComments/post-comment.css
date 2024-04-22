@@ -1,0 +1,177 @@
+.post-card {
+    background-color: #b2b2b2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-left: 60px;
+    margin: 0 auto; /* Centering the card in the feed */
+    word-wrap: break-word; /* Prevents long words from overflowing */
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 40px;
+
+}
+
+.post-card h1{
+  margin-top: 0;
+  color: #000000;
+  font-weight: 800;
+}
+
+.post-card p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.p2{
+  float: right;
+  margin: 0px;
+  opacity: 100%;
+  font-size: 1rem;
+}
+
+.post-card img {
+  width: 20rem;
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 4px; /* Optional: Rounds the corners of the image */
+  display: block; /* Centers the image */
+  justify-content: center;
+  margin: 0 auto; /* Centers the image */
+  margin-top: 10px; /* Space between text and image */
+}
+
+/* Additional styling to handle undefined images */
+.post-card img[src="undefined"] {
+  display: none; /* Hide the img tag if the src is 'undefined' */
+}
+
+
+.comments-section {
+  width: 75% !important;
+  background-color: #b2b2b2;
+  border-radius: 8px;
+  padding: 20px; 
+  margin: 0 auto; 
+  color: #000000;
+  margin-top: 5px; 
+  margin-left: 200px;
+}
+
+.comments-section, .post-card {
+  width: 80rem;
+}
+
+.comments-section form{
+  margin-left: 10px;
+}
+
+.comment {
+  width: 100%;
+  background-color: #dddddd;
+  padding: 5px;
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.comment-date {
+  font-size: 0.85em;
+  color: #000000;
+  margin-top: 10px; 
+} 
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin: 10px 10px auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  /* width: 72%; */
+  padding: 15px;
+  margin-top: 4px;
+  margin-bottom: -10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 2px;
+}
+
+.like{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  /* background-color: #cbcbcb; */
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.like img{
+  /* background-color: #cbcbcb; */
+  display: inline;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px !important;
+  padding: 10px;
+  width: 20px !important;
+}
+
+.like button{
+  display: block;
+  background-color: #696969;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: relative;
+  left: 58rem;
+}
+
+textarea{
+  background-color: #e5e5e5;
+}
+
+.edit{
+  display: block;
+  align-items: top;
+  justify-content: top;
+  margin: 0 auto;
+}
+.edit input{
+  position: relative;
+  top: -20px;
+  background-color: #e5e5e5;
+  font-size: large;
+  padding: 10px;
+  margin: 10px;
+}
+
+.edit textarea{
+  background-color: #e5e5e5;
+  font-size: large;
+  padding: 10px;
+}
+
+.edit button{
+  background-color: #696969;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: relative;
+  left: 58rem;
+}

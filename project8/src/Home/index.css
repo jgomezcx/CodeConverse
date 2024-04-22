@@ -1,0 +1,105 @@
+.home{
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding-left: 250px;
+}
+
+/* nav {
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #757575; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; 
+    margin-right: 10px;
+} */
+
+nav {
+    position: fixed; /* Fixed position */
+    top: 5px; /* Align to the top */
+    left: 5px; /* Align to the side */
+    height: 100%; /* Full height */
+    width: 200px; /* Set the width of the navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Changed from space-between to start */
+    background-color: #757575;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+
+ul{
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li{
+    display: block;
+    color: #FFFFFF; /* This is to make text white */
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+li:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.link { /* Style your Link component like this */
+    display: block;
+    color: #FFF; /* Changed text color to white for contrast */
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: large;
+    font-style: bold;
+}
+
+.link:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* If you want to indicate the active route */
+.link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    background-color: black;
+
+}
+
+.route-div{
+    /* flex: 1; */
+    padding: 20px;
+    /* background-color: ; */
+
+}
+
+button{
+    color: white;
+    margin-top: 1rem;
+    size: 12px;
+} 
+
+.img3{
+    width: 100%;
+    margin-top: -18px;
+    margin-bottom: 25px;
+}
